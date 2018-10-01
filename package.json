@@ -2,7 +2,9 @@
     "name": "test1",
     "description": "test1 project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-publishflows": "steveorevo/node-red-contrib-publishflows#master"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_test1.json",
