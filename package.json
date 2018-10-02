@@ -9,6 +9,9 @@
         "settings": {
             "flowFile": "flows_test1.json",
             "credentialsFile": "flows_test1_cred.json"
+        },
+        "nodes": {
+            "test1": "manifest.js"
         }
     }
 }

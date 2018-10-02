@@ -1,17 +1,19 @@
 /**
  * This code is machine generated.
  */
-if (typeof RED.publishflows == 'undefined') RED.publishflows = {};
-if (typeof RED.publishflows.manifest == 'undefined') RED.publishflows.manifest = [];
-RED.publishflows.manifests.push(
-  {
-    "tabs": [
+module.exports = function(RED) {
+  if (typeof RED.publishflows != 'undefined') {
+    RED.publishflows.manifests.push(
       {
-        "label": "Test 1 Flow",
-        "id": "5aa020b6.706c4",
-        "checked": "checked"
+        "tabs": [
+          {
+            "label": "Test 1 Flow",
+            "id": "5aa020b6.706c4",
+            "checked": "checked"
+          }
+        ],
+        "project": "test1"
       }
-    ],
-    "project": "test1"
+    );
   }
-);
+};
