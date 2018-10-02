@@ -2,7 +2,6 @@
  * This code is machine generated.
  */
 module.exports = function(RED) {
-  function test1() {
     if (typeof RED.publishflows != 'undefined') {
       RED.publishflows.manifests.push(
         {
@@ -18,5 +17,4 @@ module.exports = function(RED) {
       );
     }
   }
-  RED.nodes.registerType("test1", test1);
 };
