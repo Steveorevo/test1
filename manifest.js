@@ -8,7 +8,7 @@ module.exports = function(RED) {
     {
       "tabs": [
         {
-          "label": "Test 1 Flow",
+          "label": "Something Else Flow",
           "id": "5aa020b6.706c4",
           "checked": "checked"
         }
