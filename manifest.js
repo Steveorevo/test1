@@ -2,18 +2,19 @@
  * This code is machine generated.
  */
 module.exports = function(RED) {
-  if (typeof RED.publishflows != 'undefined') {
-    RED.publishflows.manifests.push(
-      {
-        "tabs": [
-          {
-            "label": "Test 1 Flow",
-            "id": "5aa020b6.706c4",
-            "checked": "checked"
-          }
-        ],
-        "project": "test1"
-      }
-    );
-  }
+  var pf = RED.settings.functionGlobalContext.get("publishflows");
+  if (typeof pf == "undefined") pf = [];
+  pf.push(
+    {
+      "tabs": [
+        {
+          "label": "Test 1 Flow",
+          "id": "5aa020b6.706c4",
+          "checked": "checked"
+        }
+      ],
+      "path": __dirname
+    }
+  );
+  RED.settings.functionGlobalContext.set("publishflows", pf);
 };
