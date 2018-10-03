@@ -11,7 +11,7 @@
             "credentialsFile": "flows_test1_cred.json"
         },
         "nodes": {
-            "test1": "manifest.js"
+            "test1_manifest": "manifest.js"
         }
     }
 }
