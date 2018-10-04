@@ -17,28 +17,28 @@ module.exports = function(RED) {
         {
           "isDirectory": "false",
           "name": "a unique file from test1.txt",
-          "path": "~/projects/test1/a unique file from test1.txt",
+          "path": "/a unique file from test1.txt",
           "id": "a-unique-file-from-test1-txt",
           "checked": "checked"
         },
         {
           "isDirectory": "true",
           "name": "a unique folder from test1",
-          "path": "~/projects/test1/a unique folder from test1",
+          "path": "/a unique folder from test1",
           "id": "a-unique-folder-from-test1",
           "checked": "checked"
         },
         {
           "isDirectory": "true",
           "name": "untitled folder",
-          "path": "~/projects/test1/untitled folder",
+          "path": "/untitled folder",
           "id": "untitled-folder",
           "checked": "checked"
         },
         {
           "isDirectory": "false",
           "name": "from test1 2.txt",
-          "path": "~/projects/test1/untitled folder/from test1 2.txt",
+          "path": "/untitled folder/from test1 2.txt",
           "id": "untitled-folder-from-test1-2-txt",
           "checked": "checked"
         }
